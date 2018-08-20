@@ -3,7 +3,10 @@ TDD in practice
 
 Simple example how to create a plugin with TDD principles.
 
-.. WARNING:: Ironically, this is an untested example :)
+First, activate your virtualenv and install the dependencies needed for testing::
+
+  source YOUR-ENV-DIR/bin/activate
+  pip install pytest mock vcrpy
 
 Create test
 -----------
